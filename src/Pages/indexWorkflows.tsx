@@ -15,12 +15,9 @@ export function Workflows() {
           <HeaderDashboard title="Workflows" />
           <div className="grid gap-6" >
             <div className="grid grid-cols-2 gap-6" >
-              <TotalWorkflows />
-              <SuccessWorkflows />
-              <FailedWorkflows />
-              <PendingWorkflows />
+              Workflows
             </div>
-            <RecentWorkflows />
+            RecentWorkflows
           </div>
         </div>
       </div>
